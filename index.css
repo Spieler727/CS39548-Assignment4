@@ -1,0 +1,49 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(77, 44, 44);
+    width: 100%;
+}
+
+.company-name h1 {
+    background-color: none;
+    font-size: 40px;
+    color:aliceblue;
+    margin-left:50px;
+}
+
+.navbar-items {
+    background-color: none;
+}
+.navbar-items ul {
+    padding: 0;
+    display: flex;
+}
+
+.navbar-items li {
+    list-style: none;
+}
+
+.navbar-items li p {
+    text-decoration: none;
+    color:aliceblue;
+    margin-top: 20px;
+    padding: 0px 50px 0 30px;
+    font-size: 20px;
+    
+}
+
+.banner {
+    background-image: url(assets/board.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+    margin-bottom: 0;
+}
+
+.feature-title {
+    text-align: center;
+    padding: 20px 0;
+}
+
